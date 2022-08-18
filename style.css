@@ -1,5 +1,7 @@
 body{
-  background: linear-gradient(#000000, #434343)
+    background-image: url(img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #gameBox{
   position: absolute;
