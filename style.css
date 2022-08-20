@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans&display=swap');
+
+html {
+  
+  position: relative;
+  min-height: 100%;
+
+}
+
 body{
-    background-image: url(img/fundo.png);
+    background-image: url(img/snake.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -10,4 +19,36 @@ body{
   transform: translate(-50%,-50%);
   overflow: hidden;
   border-radius: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.fa-github {
+
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-github:hover {
+  transform: rotate(360deg) scale(1.2);
+}
+
+.title {
+  margin-top: 200px;
+  padding: 15px;
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
 }
